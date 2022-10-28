@@ -67,7 +67,7 @@ export function Form() {
 
     function handleValidateForm(event) {
         event.preventDefault();
-        
+
         const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
 
         if(name != "" && emailRegex.test(email)) {
@@ -125,7 +125,7 @@ export function Form() {
                     />
                 </label>
 
-                <Button type="submit" onClick={() => handleValidateForm(event)} className="text-cyan-400 p-2 rounded w-32 bg-zinc-800 font-semibold text-lg hover:bg-zinc-700">Enviar</Button>
+                <Button type="submit" onClick={() => handleValidateForm(event)} className="self-center text-cyan-400 p-2 rounded w-32 bg-zinc-900 font-semibold text-lg hover:bg-zinc-700">Enviar</Button>
             </form>
 
             <ToastContainer />
