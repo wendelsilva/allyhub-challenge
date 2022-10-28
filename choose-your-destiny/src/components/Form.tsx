@@ -95,7 +95,7 @@ export function Form() {
 
                 <label htmlFor="tel" className="flex flex-col gap-2">
                     <Text text="Telefone/Celular" className="text-zinc-200 text-lg font-semibold" />
-                    <IMaskInput name="tel" type="tel" mask="(00) 00000-0000" placeholder="Digite o seu CPF" className="w-full outline-none text-zinc-200 bg-transparent flex-1 placeholder:text-zinc-500 border-2 border-zinc-700 rounded p-2 focus:border-cyan-400" />
+                    <IMaskInput name="tel" type="tel" mask="(00) 00000-0000" placeholder="Digite o seu telefone/celular" className="w-full outline-none text-zinc-200 bg-transparent flex-1 placeholder:text-zinc-500 border-2 border-zinc-700 rounded p-2 focus:border-cyan-400" />
                 </label>
 
                 <label htmlFor="cpf" className="flex flex-col gap-2">
