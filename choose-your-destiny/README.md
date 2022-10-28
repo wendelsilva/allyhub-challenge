@@ -9,7 +9,7 @@ Desafio Técnico allyhub, o desafio consistiu em criar uma aplicação onde o us
 - [ ] Reactjs
 - [ ] TailwindCSS (utilizado para estilizar a aplicação)
 - [ ] Axios (utilizado para fazer as chamadas api)
-- [ ] IMask (utilizado para criar as mascaras de cpf e telefone no respectivos campos do input)
+- [ ] IMask (utilizado para criar as mascaras de cpf e telefone no respectivos campos do fomulário)
 - [ ] Toastify (utilizado para enviar mensagens de feeback para o usuário)
 - [ ] React Select (utilizado para criar os selects das cidades e países)
 
@@ -20,7 +20,7 @@ Instalar dependências
 ```
 npm install
 ```
-Após instalar as dependências é necessário ter em suas variáveis de ambiente a url base da api. Então criar um arquivo .env e cria a seguinte variável
+Após instalar as dependências é necessário ter em suas variáveis de ambiente a url base da api. Então crie um arquivo .env e insira a seguinte variável
 ```
 VITE_API_BASE_URL= "url base da api"
 ```
