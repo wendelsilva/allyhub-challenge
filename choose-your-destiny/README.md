@@ -7,11 +7,11 @@ Desafio Técnico allyhub, o desafio consistiu em criar uma aplicação onde o us
 ## Tecnologias Utilizadas
 ### FrontEnd
 - [ ] Reactjs
-- [ ] TailwindCSS(utilizado para estilizar a aplicação)
-- [ ] Axios(utilizado para fazer as chamadas api)
-- [ ] IMask(utilizado para criar as mascaras de cpf e telefone no respectivos campos do input)
-- [ ] Toastify(utilizado para enviar mensagens de feeback para o usuário)
-- [ ] React Select(utilizado para criar os selects das cidades e países)
+- [ ] TailwindCSS (utilizado para estilizar a aplicação)
+- [ ] Axios (utilizado para fazer as chamadas api)
+- [ ] IMask (utilizado para criar as mascaras de cpf e telefone no respectivos campos do input)
+- [ ] Toastify (utilizado para enviar mensagens de feeback para o usuário)
+- [ ] React Select (utilizado para criar os selects das cidades e países)
 
 ## FrontEnd
 Para executar o frontend execute os seguintes comandos
