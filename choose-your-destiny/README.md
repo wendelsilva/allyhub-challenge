@@ -1,4 +1,4 @@
-![imagem da tela principal](https://github.com/wendelsilva/allyhub-challenge/blob/main/choose-your-destiny/choose-your-destine.png?raw=true)
+![imagem da tela principal]([https://github.com/wendelsilva/allyhub-challenge/blob/main/choose-your-destiny/choose-your-destine.png?raw=true](https://github.com/wendelsilva/allyhub-challenge/blob/main/choose-your-destiny/choose-your-destiny.png?raw=true))
 # Choose your Destiny
 ## allyhub-challenge
 
