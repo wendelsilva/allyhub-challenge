@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>Invert String</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #27272a;
+            color: #e4e4e7;
+        }
+
+        input {
+            padding: 8px;
+            background-color: transparent;
+            border: 2px solid #71717a;
+            border-radius: 4px;
+            outline: none;
+            color: #e4e4e7;
+        }
+
+        input:focus {
+            border: 2px solid #22d3ee;
+        }
+
+        button {
+            background-color: #18181b;
+            padding: 4px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+            min-height: 40px;
+            color: #e4e4e7;
+        }
+
+        button:hover {
+            background-color: #3f3f46;
+        }
+
+        #result {
+            background-color: #475569;
+            border-radius: 4px;
+            padding: 8px
+        }
+    </style>
+</head>
+<body>
+    <h1>Invert String</h1>
+    <span>Digite uma palavra para que ela seja invertida</span>
+    <input type="text" id="string"/>
+    <span>Invertido:</span>
+    <div id="result"></div>
+    <button onclick="handleInvertString()">Inverter</button>
+
+
+    <script>
+        const string = document.getElementById("string");
+        const result = document.getElementById("result");
+    
+        function handleInvertString() {
+            if(result.innerHTML) {
+                result.innerHTML = "";
+            }
+            var reverseString = "";
+    
+            for(i = string.value.length - 1; i >= 0; i--) {
+                reverseString = reverseString + string.value[i]
+            }
+    
+            result.innerHTML += reverseString
+        }
+    
+    </script>
+</body>
+</html>
